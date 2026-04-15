@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="bg-black text-white px-6">
       
       <div className="flex justify-between items-center">
-        <img src="public/brandlogo.png" alt="Ramana Tailorings Logo" className="w-[80px] h-[90px] object-contain" />
+        <img src="./public/brandlogo.png" alt="Ramana Tailorings Logo" className="w-[80px] h-[90px] object-contain" />
 
         {/* Hamburger Button */}
         <button
@@ -36,9 +36,9 @@ function Navbar() {
       {isOpen && (
         <ul className="flex flex-col mt-4 gap-3 md:hidden pb-5 mobile-view">
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       )}
     </nav>
