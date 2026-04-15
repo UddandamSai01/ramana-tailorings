@@ -1,0 +1,19 @@
+ul li {
+    padding: 4px 12px;
+    border-radius: 50px;
+    color: rgb(166, 255, 0);
+    font-size: large;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+ul li:hover {
+    background-color: transparent;
+    border-bottom: solid 3px rgb(255, 0, 230);
+    border-top: solid 1px whitesmoke;
+    transform: scale(1.2);
+}
+
+.mobile-view li{
+    width: 90px;
+}
