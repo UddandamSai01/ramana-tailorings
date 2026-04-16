@@ -1,18 +1,26 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { motion } from "framer-motion"
+import img1 from "../assets/img1.jpeg"
+import img2 from "../assets/img2.jpeg"
+import img3 from "../assets/img3.jpeg"
+import img4 from "../assets/img4.jpeg"
+import img5 from "../assets/img5.jpeg"
+import img6 from "../assets/img6.jpeg"
+import img7 from "../assets/img7.jpeg"
+import img8 from "../assets/img8.jpeg"
 
 function Hero() {
   const Navigate = useNavigate()
   const images = [
-    "src/assets/img8.jpeg",
-    "src/assets/img1.jpeg",
-    "src/assets/img2.jpeg",
-    "src/assets/img3.jpeg",
-    "src/assets/img4.jpeg",
-    "src/assets/img5.jpeg",
-    "src/assets/img6.jpeg",
-    "src/assets/img7.jpeg",
+    img8,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
     
   ]
 

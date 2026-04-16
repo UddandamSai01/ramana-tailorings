@@ -1,26 +1,35 @@
 import React from 'react';
+import shirtImage from "../assets/shirt_image.png"
+import shirtPantFormal from "../assets/shirt_pant_formal.png"
+import pant from "../assets/pant.png"
+import shirt from "../assets/shirt.png"
+import b1 from "../assets/b1.jpeg"
+import b2 from "../assets/b2.jpeg"
+import b3 from "../assets/b3.jpeg"
+import b4 from "../assets/b4.jpeg"
+import short from "../assets/short.png"
+import uniform from "../assets/uniform.png"
 
 function Services() {
 
   const data = {
     mens: [
-      { name: "Printed Shirt", img: "./src/assets/shirt_image.png" },
-      { name: "Formal Shirt Pant", img: "./src/assets/shirt_pant_formal.png" },
-      { name: "Formal Pant", img: "./src/assets/pant.png" },
-      { name: "Modern Shirt", img: "./src/assets/shirt.png" },
-      
+      { name: "Rounded Neck Shirt", img: shirtImage },
+      { name: "Formal Shirt Pant", img: shirtPantFormal },
+      { name: "Formal Pant", img: pant },
+      { name: "Modern Shirt", img: shirt },
     ],
 
     womens: [
-      { name: "Round Neck", img: "./src/assets/b1.jpeg" },
-      { name: "V-Shape Neck", img: "./src/assets/b2.jpeg" },
-      { name: "Square Neck", img: "./src/assets/b3.jpeg" },
-      { name: "Off-Shoulder", img: "./src/assets/b4.jpeg" },
+      { name: "Round Neck", img: b1 },
+      { name: "V-Shape Neck", img: b2 },
+      { name: "Square Neck", img: b3 },
+      { name: "Off-Shoulder", img: b4 },
     ],
 
     child: [
-      { name: "Kids Short", img: "./src/assets/short.png" },
-      { name: "Uniform Shirt", img: "./src/assets/uniform.png" },
+      { name: "Kids Short", img: short },
+      { name: "Uniform Shirt", img: uniform },
     ]
   };
 

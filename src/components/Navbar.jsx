@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import "./Navbar.css"
+import brandlogo from "../assets/brandlogo.png"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,7 +10,7 @@ function Navbar() {
     <nav className="bg-black text-white px-6">
       
       <div className="flex justify-between items-center">
-        <img src="./public/brandlogo.png" alt="Ramana Tailorings Logo" className="w-[80px] h-[90px] object-contain" />
+        <img src={brandlogo} alt="Ramana Tailorings Logo" className="w-[80px] h-[90px] object-contain" />
 
         {/* Hamburger Button */}
         <button
