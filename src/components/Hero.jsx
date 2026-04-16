@@ -5,9 +5,15 @@ import { motion } from "framer-motion"
 function Hero() {
   const Navigate = useNavigate()
   const images = [
-    "https://images.unsplash.com/photo-1521334884684-d80222895322",
-    "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
-    "https://images.unsplash.com/photo-1520975922324-6c2f4b5f0c2d",
+    "src/assets/img8.jpeg",
+    "src/assets/img1.jpeg",
+    "src/assets/img2.jpeg",
+    "src/assets/img3.jpeg",
+    "src/assets/img4.jpeg",
+    "src/assets/img5.jpeg",
+    "src/assets/img6.jpeg",
+    "src/assets/img7.jpeg",
+    
   ]
 
   const [current, setCurrent] = useState(0)
@@ -16,7 +22,7 @@ function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length)
-    }, 6000)
+    }, 3000)
 
     return () => clearInterval(interval)
   }, [])
@@ -63,14 +69,16 @@ function Hero() {
         </h2>
 
         <p className="text-gray-600 mb-6">
-          We design stylish and comfortable clothes tailored just for you.
+          Experience the art of tailoring with us. We create garments that not only fit perfectly but also reflect your unique style and personality.
+        </p>
+        <p className="text-gray-600 mb-6">
+          👇 you can explore our services by clicking the button below.
         </p>
 
         <button
-          onClick={() => Navigate("/services")}
           className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition"
         >
-          Check Out Our Services
+          <a href="#services">Explore Services</a>
         </button>
       </div>
 

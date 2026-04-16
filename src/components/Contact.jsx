@@ -2,8 +2,8 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
-        <div id='contact' className="bg-gradient-to-r from-gray-100 to-gray-200  flex px-4 py-24 md:px-12">
-        <div className="bg-white shadow-lg rounded-xl px-10 py-3 w-full max-w-lg mx-auto my-10">
+        <div id='contact' className="bg-white flex px-4 py-24 md:px-12">
+        <div className="bg-gray-200  shadow-lg rounded-xl px-10 py-3 w-full max-w-lg mx-auto my-10">
           
           <h1 className="text-3xl font-bold text-center mb-6">Contact Us</h1>
 
@@ -17,7 +17,7 @@ export default function Contact() {
                 id="name"
                 name="name"
                 placeholder="Enter Your Name"
-                className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className=" bg-transparent border border-gray-400 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -29,7 +29,7 @@ export default function Contact() {
                 id="email"
                 name="email"
                 placeholder="Enter Your Email"
-                className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="bg-transparent border border-gray-400 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 placeholder="Enter Your Message"
-                className="border border-gray-300 rounded-lg px-4 py-2 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className=" bg-transparent border border-gray-400 rounded-lg px-4 py-2 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
             </div>
 

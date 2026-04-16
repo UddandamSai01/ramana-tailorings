@@ -19,7 +19,7 @@ function Navbar() {
           {isOpen ? (
             <XMarkIcon className="w-8 h-8" />
           ) : (
-            <Bars3Icon className="w-8 h-8" />
+            <Bars3Icon className="w-8 h-8"  />
           )}
         </button>
 
@@ -34,7 +34,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="flex flex-col mt-4 gap-3 md:hidden pb-5 mobile-view">
+        <ul className="flex flex-col mt-4 gap-3 md:hidden pb-5 mobile-view" onClick={() => setIsOpen(false)}>
           <li><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>

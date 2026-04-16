@@ -8,7 +8,7 @@ import Services from "../components/Services"
 function Home() {
   return (
     <>
-      <nav className="fixed top-0 w-full">
+      <nav className="fixed top-0 w-full z-50">
         <Navbar />
       </nav>
       <Hero />
